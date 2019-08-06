@@ -1,0 +1,11 @@
+FROM node:latest
+WORKDIR /usr/src/eventsProducer
+
+COPY amqp-wrapper /usr/src/amqp-wrapper
+COPY eventsProducer/package*.json ./
+
+RUN npm install
+
+COPY eventsProducer/ ./
+
+CMD ["node", "."]

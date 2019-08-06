@@ -1,0 +1,17 @@
+{
+  "name": "amqp-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}

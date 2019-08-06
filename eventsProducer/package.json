@@ -1,0 +1,17 @@
+{
+  "name": "eventsproducer",
+  "version": "1.0.0",
+  "description": "Random AMQP events producer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Krystian Ogierman <krystian.ogierman@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "amqp-wrapper": "file://../amqp-wrapper"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}

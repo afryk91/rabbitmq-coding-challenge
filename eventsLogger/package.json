@@ -1,0 +1,17 @@
+{
+  "name": "eventslogger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "amqp-wrapper": "file://../amqp-wrapper"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

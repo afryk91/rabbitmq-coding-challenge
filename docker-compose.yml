@@ -1,0 +1,17 @@
+version: '3'
+services:
+    events-logger:
+        build:
+            context: ./
+            dockerfile: ./Dockerfile.events-logger
+        environment:
+            RABBIT_MQ_IP: "rabbit" 
+            RABBIT_MQ_PORT: 5672
+    events-producer:
+        build:
+            context: ./
+            dockerfile: ./Dockerfile.events-producer
+        environment:
+            RABBIT_MQ_IP: "rabbit"
+            RABBIT_MQ_PORT: 5672
+            PRODUCTION_INTERVAL: 3000
